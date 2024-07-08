@@ -45,7 +45,7 @@ We would need to deploy this application from LocalStack to the SQS cloud servic
 ### 4. How can PII be recovered later on?
 
 **Answer:** Store a mapping of original PII to masked values in a secure, encrypted store. Access to this store should be strictly audited. The hashing algorithm used in the script is a one pass algorithm and does 
-not allow us to go back to the original value. If required, we could also use a cryptographic cipher to excrypt and decrypt our PII values.
+not allow us to go back to the original value. If required, we could also use a cryptographic cipher to encrypt and decrypt our PII values.
 
 ### 5. What are the assumptions you made?
 
